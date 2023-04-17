@@ -12,9 +12,32 @@ html {
   scroll-behavior: smooth;
 }
 
+h2 {
+    text-align: center;
+}
+
 #container {
   height: 70vh;
   position: relative;
   text-align: center;
   color: white;
 }
+
+.enter-btn {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-color: white;
+    border-radius: 10%;
+    border-style: solid;
+  }
+
+  .enter-img {
+    max-height: 1000px;
+
+  }
