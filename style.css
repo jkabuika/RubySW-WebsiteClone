@@ -98,23 +98,22 @@ h2 {
     flex-basis: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+  text-align: center;
     }
     
     .home-right {
     flex-basis: 50%;
-    display: flex;
-    text-align: center;
     }
     
     .img-wrapper {
     flex-basis: 50%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
     }
     
-    .stats-bio-wrapper {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    }
     
     .home-img {
     width: auto;
@@ -124,12 +123,19 @@ h2 {
     }
     
     .stats {
-    width: 100%;
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
     }
     
     .bio {
-    flex-basis: 50%;
-    padding-left: 20px;
+      padding-left: 20px;
+      width: 80%;
+      text-align: center;
+    }
+
+    .bio p {
+      padding: 1.5rem 0;
     }
     
     .stats-list {
@@ -142,10 +148,21 @@ h2 {
     margin-bottom: 10px;
     }
     
+    
     .booking-btn {
-    display: block;
-    width: 200px;
-    margin: 0;
+      display: block;
+      margin: 0 auto;
+      max-width: 300px;
+      width: 100%;
+      padding: 15px;
+      text-align: center;
+      background-color: #ffdab9;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 30px;
     }
     
     @media (max-width: 768px) {
